@@ -45,7 +45,7 @@ ul {
     color: #404bbf;
 }
 .hide-element {
-    display: none;
+    visibility: hidden;
 }
 .address {
     font-style: normal;
@@ -132,12 +132,10 @@ h3 {
     color: #2e2f42;
 }
 .portfolio-list {
-    width: 360px;
-    height: 300px;
+   
 }
 .team-list {
-    width: 264px;
-    height: 260px;
+
 }
 li p {
     font-size: 16px;
