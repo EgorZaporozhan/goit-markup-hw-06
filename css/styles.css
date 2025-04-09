@@ -6,7 +6,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--navy-blue);
+    color: #434455;
     background-color: #fff;
     letter-spacing: 0.02em;
 }
@@ -18,17 +18,21 @@ ul {
 }
 .logo-span{
     font-family: var(--second-family);
-    color: var(--iris);
+    color: #f4f4fd;
     font-size: 18px;
+}
+.color-change {
+    color: #2e2f42;
 }
 
 .logo-decor {
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     font-size: 18px;
-    color: var(--navy-blue);
+    color: #4d5ae5;
     font-family: var(--second-family);
     text-transform: uppercase;
+    font-weight: 700;
 }
 .nav-text{
     color: var(--navy-blue);
@@ -36,13 +40,26 @@ ul {
     font-size: 16px;
     line-height: 1.5;
 }
+.nav:hover,
+.nav.nav:focus {
+    color: #404bbf;
+}
 .hide-element {
     display: none;
+}
+.address {
+    font-style: normal;
 }
 .address-text {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.address-text:hover,
+.address-text:focus {
+    color: #404bbf;
 }
 .first-section {
     background-color: var(--navy-blue);
@@ -53,12 +70,37 @@ ul {
     font-weight: 700;
     font-size: 56px;
 }
+.first-section-header{
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
 .first-section-button {
     background-color: var(--iris);
     color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.first-section-button:hover,
+.first-section-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.strategy-paragraph {
+    color: #434455;
 }
 .team-section {
     background-color: #f4f4fd;
+}
+.team-header-2 {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+.team-li{
+    background-color: #FFFFFF;
+}
+h1 {
+    line-height: 1.07
 }
 h2 {
     font-size: 36px;
@@ -77,6 +119,11 @@ h3 {
 }
 .team-paragraph{
     text-align: center;
+    color: #434455;
+}
+.portfolio-header{
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 .portfolio-list {
     width: 360px;
@@ -95,14 +142,22 @@ li p {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-footer {
+.portfolio-p {
+    color: #2e2f42;
+}
+.footer {
     background-color: var(--navy-blue);
 }
 footer .logo-decor {
     color: #f4f4fd;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #4d5ae5;
 }
-footer > p {
+.footer-p {
     color: #f4f4fd;
     line-height: 1.5;
 }
