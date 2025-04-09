@@ -75,6 +75,9 @@ h3 {
 .team-header {
     text-align: center;
 }
+.team-paragraph{
+    text-align: center;
+}
 .portfolio-list {
     width: 360px;
     height: 300px;
