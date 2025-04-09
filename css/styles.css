@@ -89,12 +89,16 @@ ul {
 .strategy-paragraph {
     color: #434455;
 }
+.strategy-header {
+    color: #2e2f42;
+}
 .team-section {
     background-color: #f4f4fd;
 }
-.team-header-2 {
+.team-header-second {
     line-height: 1.11;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-li{
     background-color: #FFFFFF;
@@ -116,6 +120,7 @@ h3 {
 }
 .team-header {
     text-align: center;
+    color: #2e2f42;
 }
 .team-paragraph{
     text-align: center;
@@ -124,6 +129,7 @@ h3 {
 .portfolio-header{
     line-height: 1.11;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .portfolio-list {
     width: 360px;
@@ -146,7 +152,7 @@ li p {
     color: #2e2f42;
 }
 .portfolio-p {
-    color: #2e2f42;
+    color: #434455;
 }
 .footer {
     background-color: var(--navy-blue);
