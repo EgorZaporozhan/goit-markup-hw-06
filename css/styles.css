@@ -56,7 +56,7 @@ a {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 .flex-header-element {
     display: flex;
@@ -180,11 +180,11 @@ a {
 .about-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
-    padding-top: 120px;
+    /* padding-bottom: 120px;
+    padding-top: 120px; */
 }
 .about-list-calc{
-    
+    width: calc((100% - 72px) / 4);
 }
 .strategy-header {
     color: var(--navy-blue);
@@ -262,18 +262,18 @@ li p {
    column-gap: 24px;
    flex-wrap: wrap;
 }
-.portfolio-info{
+/* .portfolio-info{
 
-}
+} */
 .portfolio-border {
     border-bottom: 1px solid var(--cornflower);
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
     padding: 32px 16px;
 }
-.team-list {
+/* .team-list {
 
-}
+} */
 
 .footer {
     background-color: var(--navy-blue);
