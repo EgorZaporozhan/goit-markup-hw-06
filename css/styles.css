@@ -61,8 +61,6 @@ a {
 .flex-header-element {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-navigation {
     display: flex;
@@ -97,6 +95,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     padding: 24px 0;
+    display: block;
 }
 .nav:hover,
 .nav.nav:focus {
@@ -108,6 +107,7 @@ a {
 .header-address {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .address-text {
     color: var(--slate);
