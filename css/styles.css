@@ -155,7 +155,7 @@ a {
     padding: 188px 0;
 }
 .hero-image {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(/images/hero-image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
