@@ -92,7 +92,7 @@ a {
 .header-li-underline{
     position: relative;
 }
-.header-li-underline::after{
+.nav::after{
         content: '';
         border-radius: 2px;
         width: 100%;
