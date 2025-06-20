@@ -485,6 +485,9 @@ footer .logo-decor {
 .footer-subscribe-form{
     margin-right: 24px;
 }
+.footer-form{
+    display: flex;
+}
 .footer-subscribe-button{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: 0px;
@@ -515,7 +518,9 @@ footer .logo-decor {
     text-align: center;
     color: #fff;
 }
-
+.footer-subscribe-main-text{
+    display: inline-block;
+}
 
 /* ---------BACKDROP--------- */
 .backdrop{
