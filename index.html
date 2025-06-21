@@ -510,18 +510,25 @@
         <div class="footer-subscribe-form">
           <p class="footer-subscribe-main-text">Subscribe</p>
           <form class="footer-form">
-            <label for="text" class="footer-subscribe-main-text"></label>
-
-            <input
-              name="footer-modal"
-              class="footer-input"
-              type="email"
-              placeholder="E-mail"
-              id="text"
-            />
+            <label class="footer-subscribe-main-text">
+              <input
+                name="footer-modal"
+                class="footer-input"
+                type="email"
+                placeholder="E-mail"
+            /></label>
+            <button
+              type="submit"
+              class="footer-subscribe-button footer-subscribe-text"
+            >
+              Subscribe
+              <svg class="footer-icon subs-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
-        <div class="footer-button">
+        <!-- <div class="footer-button">
           <button
             type="submit"
             class="footer-subscribe-button footer-subscribe-text"
@@ -531,7 +538,7 @@
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>
-        </div>
+        </div> -->
       </div>
       <!-- </div> -->
     </footer>
