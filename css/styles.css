@@ -613,8 +613,10 @@ footer .logo-decor {
     fill: var(--iris);
 }
 .modal-field{
-    /* margin-bottom: 16px; */
     margin-bottom: 8px;
+}
+.modal-padding{
+    margin-bottom: 16px;
 }
 .modal-checkbox{
     margin-bottom: 24px;
@@ -639,11 +641,16 @@ footer .logo-decor {
     justify-content: center;
     fill: transparent;
 }
-input[type="checkbox"]:checked + .modal-checkbox-textspan > .modal-span{
+.modal-checkbox-input:checked + .modal-checkbox-text .modal-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+/* input[type="checkbox"]:checked + .modal-checkbox-textspan > .modal-span{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+} */
 .modal-link{
     color: #4d5ae5;
 }
