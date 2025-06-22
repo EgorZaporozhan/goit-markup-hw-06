@@ -86,7 +86,7 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     /* margin-right: 76px; */
-    padding: 16px 0;
+    /* padding: 16px 0; */
 }
 .logo-span{
     font-family: var(--second-family);
@@ -651,7 +651,8 @@ footer .logo-decor {
 .footer-input{
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    /* width: 264px; */
+    width: 288px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
@@ -1006,6 +1007,10 @@ footer .logo-decor {
         /* margin-left: 108px;
         margin-right: 164px; */
         justify-content: center;
+        /* margin-left: 92px; */
+    }
+    .footer-input {
+        width: 264px;
     }
     .footer-form{
         flex-direction: row;
