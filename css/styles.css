@@ -270,7 +270,7 @@ a {
 .mob-menu-list {}
 
 .mob-menu-li-underline:not(:last-child) {
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 
 .nav-text {}
