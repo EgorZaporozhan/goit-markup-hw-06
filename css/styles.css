@@ -1136,13 +1136,13 @@ footer .logo-decor {
             gap: 0;
             justify-content: flex-start;
         }
-                .footer-content-block{
-                    margin-right: 120px;
-                }
-                                .footer-social-block {
-                                    margin-right: 80px;
-                                }
-                                .footer-input{
-                                    opacity: 1;
-                                }
+        .footer-content-block{
+            margin-right: 120px;
+        }
+        .footer-social-block {
+            margin-right: 80px;
+        }
+        .footer-input{
+            opacity: 1;
+        }
 }
