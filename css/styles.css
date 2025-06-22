@@ -231,11 +231,18 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* display: none; */
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
 }
 
+.mob-menu.is-open{
+    /* display: block; */
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+}
 .mob-ul-links{
     gap: 40px;
     display: flex;
@@ -1030,6 +1037,11 @@ footer .logo-decor {
    }
    .modal-textarea{
     width: 360px;
+   }
+   .mob-menu.is-open{
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
    }
 }
 
